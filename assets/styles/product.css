@@ -1,0 +1,252 @@
+.page-product {
+  color: #5b5b5b;
+}
+.page-product .banner-product {
+  position: relative;
+  background-image: url("../images/home/bg-slider-product.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 700px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.page-product .history-description {
+  margin: 40px 0;
+}
+.page-product .history-description .container {
+  text-align: center;
+}
+.page-product .history-description .container > p {
+  line-height: 32px;
+}
+.page-product .history-description .container .img-group {
+  margin: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-product .history-description .container .img-group img:first-of-type {
+  height: 85px;
+}
+.page-product .history-description .container .img-group img:nth-of-type(2) {
+  height: 58px;
+}
+.page-product .history-description .container .img-group img:nth-of-type(3) {
+  height: 86px;
+}
+.page-product .history-description .container .img-group img + img {
+  margin-left: 80px;
+}
+.page-product .sop-subarashi {
+  position: relative;
+}
+.page-product .sop-subarashi .video-bg {
+  position: relative;
+  overflow: hidden;
+  height: 580px;
+}
+.page-product .sop-subarashi .video-bg .banner__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  opacity: 1;
+}
+.page-product .sop-subarashi .product {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 560px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.page-product .sop-subarashi .product h2 {
+  margin: 0;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 8px;
+}
+.page-product .sop-subarashi .product h2 + p {
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.page-product .sop-subarashi .product img {
+  height: 310px;
+}
+.page-product .sop-subarashi .award {
+  padding: 60px 0;
+}
+.page-product .sop-subarashi .award .container {
+  text-align: center;
+}
+.page-product .sop-subarashi .award .container .img {
+  display: inline-flex;
+  align-items: flex-end;
+  position: relative;
+}
+.page-product .sop-subarashi .award .container .img img {
+  width: calc(65% - 20px);
+  position: relative;
+  bottom: -96px;
+}
+.page-product .sop-subarashi .award .container .img img + img {
+  margin-left: 40px;
+  width: calc(35% - 20px);
+  position: relative;
+  top: 0;
+}
+.page-product .sop-subarashi .award .container > p {
+  margin-top: 40px;
+  line-height: 32px;
+}
+.page-product .sop-subarashi .award .container > p + p {
+  margin: 60px 0 32px 0;
+}
+.page-product .sop-subarashi .award .container ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.page-product .sop-subarashi .award .container ul li img {
+  width: 100%;
+}
+.page-product .sop-subarashi.sensei-suru .product img {
+  height: 380px;
+}
+.page-product .sop-subarashi.sensei-suru .award .img img {
+  width: calc(32% - 20px);
+  position: relative;
+  bottom: -70px;
+}
+.page-product .sop-subarashi.sensei-suru .award .img img + img {
+  margin-left: 40px;
+  width: calc(68% - 20px);
+  position: relative;
+  top: 0;
+}
+.page-product .sop-subarashi.sensei-suru .award .row-one {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  gap: unset;
+}
+.page-product .sop-subarashi.sensei-suru .award .row-one li img {
+  width: 278px;
+}
+.page-product .sop-subarashi.sensei-suru .award .row-one li + li {
+  margin-left: 24px;
+}
+.page-product .sop-subarashi.sensei-suru .award .row-two {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  gap: unset;
+}
+.page-product .sop-subarashi.sensei-suru .award .row-two li {
+  width: 25%;
+}
+.page-product .sop-subarashi.sensei-suru .award .row-two li img {
+  width: 100%;
+}
+.page-product .sop-subarashi.sensei-suru .award .row-two li + li {
+  margin-left: 24px;
+}
+.page-product .sop-subarashi.sensei-suru .award .row-three {
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: unset;
+}
+.page-product .sop-subarashi.utsukushhii .award .container > p {
+  margin: 0;
+  margin-bottom: 24px;
+}
+.page-product .sop-subarashi.utsukushhii .award .row-one {
+  grid-template-columns: 1fr;
+  margin-bottom: 24px;
+}
+.page-product .sop-subarashi.utsukushhii .award .row-one li img {
+  width: 278px;
+}
+.page-product .sop-subarashi.utsukushhii .award .row-two {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+@media (max-width: 767.98px) {
+  .page-product .history-description .container .img-group {
+    grid-gap: 32px;
+    flex-flow: row wrap;
+  }
+  .page-product .history-description .container .img-group img + img {
+    margin: 0;
+  }
+  .page-product .sop-subarashi .award .container ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .page-product .sop-subarashi .award .container .img {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .page-product .sop-subarashi .award .container .img img {
+    width: 90%;
+    bottom: 0;
+  }
+  .page-product .sop-subarashi .award .container .img img + img {
+    margin: 0;
+    width: 70%;
+  }
+  .page-product .sop-subarashi.utsukushhii .award .row-two {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .page-product .sop-subarashi.sensei-suru .product img {
+    height: 260px;
+  }
+  .page-product .sop-subarashi.sensei-suru .row-one li img {
+    width: 100%;
+  }
+  .page-product .sop-subarashi.sensei-suru .row-two li {
+    width: 50%;
+  }
+  .page-product .sop-subarashi.sensei-suru .award .img img {
+    margin: 0;
+    width: 50%;
+  }
+  .page-product .sop-subarashi.sensei-suru .award .img img + img {
+    margin: 0;
+    width: 100%;
+  }
+  .page-product .sop-subarashi.sensei-suru .award .row-one li img {
+    width: 100%;
+  }
+  .page-product .sop-subarashi.sensei-suru .award .row-two {
+    gap: 24px;
+  }
+  .page-product .sop-subarashi.sensei-suru .award .row-two li {
+    width: auto;
+  }
+  .page-product .sop-subarashi.sensei-suru .award .row-two li + li {
+    margin: 0;
+  }
+  .page-product .sop-subarashi.sensei-suru .award .row-three {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}/*# sourceMappingURL=product.css.map */

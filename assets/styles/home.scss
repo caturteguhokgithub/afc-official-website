@@ -1,0 +1,465 @@
+@import "./variable";
+
+.page-home {
+  .care {
+    padding: 40px 24px;
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 24px;
+      font-weight: 700;
+      font-size: 40px;
+    }
+
+    button {
+      padding: 8px 16px;
+      margin-top: 32px;
+      border: 0;
+      background-color: $color-grey;
+      transition: all 0.3s ease-in;
+      color: $color-white;
+
+      &:hover {
+        background-color: $color-red-default;
+      }
+    }
+  }
+
+  .slider {
+    .main-banner {
+      .slider-item {
+        min-height: 74vh;
+
+        &.slider-video {
+          background-image: url("../images/home/bg-banner-video.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          div {
+            p {
+              font-size: 24px;
+              max-width: 720px;
+              text-align: center;
+
+              strong {
+                margin: 8px 0;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 36px;
+                display: block;
+              }
+            }
+
+            a {
+              max-width: 600px;
+              margin: 24px auto 0 auto;
+              display: block;
+            }
+          }
+        }
+
+        &.slider-product {
+          background-image: url("../images/home/bg-slider-product.jpg");
+          background-position: center bottom;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        &.slider-ocbc {
+          background-image: url("../images/home/bg-slider-ocbc-md.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          .mobile-view {
+            display: none;
+          }
+
+          @media (max-width: 767.98px) {
+            background-image: url("../images/home/bg-slider-ocbc-sm.jpg");
+
+            .mobile-view {
+              display: block;
+            }
+          }
+        }
+
+        &.slider-building {
+          background-image: url("../images/home/bg-slider-building.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          .afc-about {
+            max-width: 480px;
+            color: $color-white;
+
+            > h2 {
+              margin-bottom: 30px;
+              font-size: 40px;
+              text-transform: uppercase;
+            }
+
+            > span {
+              line-height: 32px;
+            }
+
+            > a {
+              margin-top: 24px;
+              display: inline-block;
+
+              button {
+                font-size: 14px;
+                border: 0;
+                width: 142px;
+                height: 40px;
+                background-color: $color-red-default;
+                color: $color-white;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+
+        &.slider-announce {
+          // background-image: url('../images/home/bg-banner-video.jpg');
+          // background-position: center;
+          // background-repeat: no-repeat;
+          // background-size: cover;
+          background-color: $color-white;
+
+          > div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 980px;
+
+            > div {
+              font-size: 24px;
+              width: 100%;
+              text-align: left;
+              text-transform: uppercase;
+
+              img {
+                margin-bottom: 24px;
+                height: 40px;
+              }
+
+              .title {
+                letter-spacing: 5px;
+                border-bottom: 1px solid #ccc;
+                display: inline-block;
+              }
+
+              .japan,
+              .sub-title,
+              .desc {
+                display: block;
+              }
+
+              .sub-title {
+                margin-top: 40px;
+                font-size: 32px;
+              }
+
+              .desc {
+                margin-top: 24px;
+                font-size: 20px;
+                max-width: 560px;
+              }
+
+              strong {
+                font-weight: 700;
+              }
+            }
+
+            > img {
+              width: 200px;
+            }
+          }
+        }
+
+        &.slider-statement {
+          background-color: $color-white;
+
+          > div {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 980px;
+
+            > div {
+              font-size: 24px;
+              width: 100%;
+              text-align: center;
+              text-transform: uppercase;
+
+              img {
+                margin-bottom: 24px;
+                margin-left: auto;
+                height: 40px;
+              }
+
+              .title {
+                font-size: 32px;
+                font-weight: 700;
+                display: inline-block;
+              }
+
+              .japan,
+              .desc {
+                display: block;
+                text-align: center;
+                margin: 0 auto;
+              }
+
+              .desc {
+                margin-top: 24px;
+                font-size: 18px;
+                max-width: 800px;
+              }
+            }
+
+            > img {
+              width: 540px;
+              margin: 40px auto -200px auto;
+            }
+          }
+        }
+      }
+
+      .arrow-slick {
+        &.arrow-prev {
+          left: 100px;
+        }
+
+        &.arrow-next {
+          right: 100px;
+        }
+      }
+
+      .slick-slide {
+        &.slick-active {
+          .slider-item {
+            &.slider-ocbc {
+              min-height: 1080px;
+
+              @media (max-width: 767.98px) {
+                padding: 0;
+                background-image: none;
+                min-height: 0;
+
+                .mobile-view {
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .stories {
+    color: $color-dark;
+
+    h2 {
+      margin: 0;
+      margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .youtube-stories {
+      margin-top: 20px;
+      transition: all 0.6s ease;
+
+      .slider-video {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .col-12 {
+          padding: 0;
+          margin: 0;
+          display: inline-flex;
+        }
+
+        .youtube {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+      }
+
+      .arrow-slick {
+        display: none !important;
+        transition: display 0.6s ease;
+      }
+
+      &:hover {
+        .arrow-slick {
+          display: block !important;
+        }
+      }
+    }
+  }
+
+  .care,
+  > .social-media {
+    padding: 40px 0;
+  }
+
+  @media (max-width: 767.98px) {
+    .slider {
+      .slider-item {
+        padding: 0 40px;
+      }
+
+      .main-banner {
+        .arrow-slick {
+          img {
+            width: 20px;
+            height: 20px;
+          }
+
+          &.arrow-prev {
+            left: 16px;
+          }
+
+          &.arrow-next {
+            right: 16px;
+          }
+        }
+
+        .slider-item {
+          &.slider-building {
+            .afc-about {
+              > h2 {
+                font-size: 32px;
+
+                + span {
+                  font-size: 14px;
+                  line-height: 20px;
+                }
+              }
+            }
+          }
+
+          &.slider-announce {
+            padding: 0 56px;
+
+            > div {
+              > div {
+                font-size: 18px;
+
+                .sub-title {
+                  font-size: 24px;
+                }
+
+                .desc {
+                  font-size: 16px;
+                }
+              }
+
+              > img {
+                display: none;
+              }
+            }
+          }
+
+          &.slider-statement {
+            > div {
+              padding: 0 16px;
+              width: 100%;
+
+              > div {
+                > img {
+                  height: 30px;
+                }
+
+                .title {
+                  font-size: 18px;
+                }
+
+                .japan {
+                  font-size: 18px;
+                }
+
+                .japan,
+                .desc {
+                  display: block;
+                  text-align: center;
+                  margin: 0 auto;
+                }
+
+                .desc {
+                  margin-top: 16px;
+                  font-size: 14px;
+                }
+
+                .desc.japan {
+                  display: none;
+                }
+              }
+
+              > img {
+                width: 80%;
+                margin: 40px auto -100px auto;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .header {
+      .container {
+        padding: 0 16px;
+        margin: 0;
+
+        .row {
+          margin: 0;
+        }
+      }
+    }
+
+    .care {
+      .col-md-6 {
+        text-align: center;
+
+        + .col-md-6 {
+          margin-top: 24px;
+        }
+      }
+    }
+
+    .stories {
+      h2 {
+        font-size: 32px;
+      }
+
+      .youtube-stories {
+        .slider-video {
+          .youtube {
+            flex: 0 0 100%;
+            max-width: 100%;
+          }
+        }
+
+        .arrow-slick {
+          display: block !important;
+
+          img {
+            width: 32px;
+            height: 32px;
+          }
+        }
+      }
+    }
+  }
+}

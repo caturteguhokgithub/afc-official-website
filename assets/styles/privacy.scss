@@ -1,0 +1,32 @@
+@import './variable';
+
+.page-privacy {
+  .body {
+    padding: 20px 0 40px 0;
+
+    >div {
+      >ol {
+        >li {
+          &::marker {
+            font-weight: 700;
+          }
+
+          strong {
+            margin-bottom: 8px;
+            display: block;
+          }
+
+          +li {
+            margin-top: 16px;
+          }
+
+          >ol {
+            >li {
+              margin-top: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

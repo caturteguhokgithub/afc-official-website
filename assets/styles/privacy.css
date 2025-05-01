@@ -1,0 +1,16 @@
+.page-privacy .body {
+  padding: 20px 0 40px 0;
+}
+.page-privacy .body > div > ol > li::marker {
+  font-weight: 700;
+}
+.page-privacy .body > div > ol > li strong {
+  margin-bottom: 8px;
+  display: block;
+}
+.page-privacy .body > div > ol > li + li {
+  margin-top: 16px;
+}
+.page-privacy .body > div > ol > li > ol > li {
+  margin-top: 8px;
+}/*# sourceMappingURL=privacy.css.map */

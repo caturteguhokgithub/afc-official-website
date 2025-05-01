@@ -1,0 +1,384 @@
+@import './variable';
+
+.page-product {
+  color: $color-dark;
+
+  .banner-product {
+    position: relative;
+    background-image: url('../images/home/bg-slider-product.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .history-description {
+    margin: 40px 0;
+
+    .container {
+      text-align: center;
+
+      >p {
+        line-height: 32px;
+      }
+
+      .img-group {
+        margin: 60px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+
+          &:first-of-type {
+            height: 85px;
+          }
+
+          &:nth-of-type(2) {
+            height: 58px;
+          }
+
+          &:nth-of-type(3) {
+            height: 86px;
+          }
+
+          +img {
+            margin-left: 80px;
+          }
+        }
+      }
+    }
+  }
+
+  .sop-subarashi {
+    position: relative;
+
+    .video-bg {
+      position: relative;
+      overflow: hidden;
+      height: 580px;
+
+      .banner__video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        opacity: 1;
+      }
+    }
+
+    .product {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 560px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      color: $color-white;
+
+      h2 {
+        margin: 0;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 8px;
+
+        +p {
+          font-weight: 700;
+          margin-top: 20px;
+          margin-bottom: 40px;
+          font-size: 20px;
+          letter-spacing: 4px;
+        }
+      }
+
+      img {
+        height: 310px;
+      }
+    }
+
+
+    .award {
+      padding: 60px 0;
+
+      .container {
+        text-align: center;
+
+        .img {
+          display: inline-flex;
+          align-items: flex-end;
+          position: relative;
+
+          img {
+            width: calc(65% - 20px);
+            position: relative;
+            bottom: -96px;
+
+            +img {
+              margin-left: 40px;
+              width: calc(35% - 20px);
+              position: relative;
+              top: 0;
+            }
+          }
+        }
+
+        >p {
+          margin-top: 40px;
+          line-height: 32px;
+
+          +p {
+            margin: 60px 0 32px 0;
+          }
+        }
+
+        ul {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 24px;
+
+          li {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+
+    &.sensei-suru {
+      .product {
+        img {
+          height: 380px;
+        }
+      }
+
+      .award {
+        .img {
+          img {
+            width: calc(32% - 20px);
+            position: relative;
+            bottom: -70px;
+
+            +img {
+              margin-left: 40px;
+              width: calc(68% - 20px);
+              position: relative;
+              top: 0;
+            }
+          }
+        }
+
+        .row-one {
+          margin-bottom: 24px;
+          display: flex;
+          justify-content: center;
+          gap: unset;
+
+          li {
+            img {
+              width: 278px;
+            }
+
+            +li {
+              margin-left: 24px;
+            }
+          }
+        }
+
+        .row-two {
+          margin-bottom: 24px;
+          display: flex;
+          justify-content: center;
+          gap: unset;
+
+          li {
+            width: 25%;
+
+            img {
+              width: 100%;
+            }
+
+            +li {
+              margin-left: 24px;
+            }
+          }
+        }
+
+        .row-three {
+          margin-bottom: 24px;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: unset;
+        }
+      }
+    }
+
+    &.utsukushhii {
+      .award {
+        .container {
+          >p {
+            margin: 0;
+            margin-bottom: 24px;
+          }
+        }
+
+        .row-one {
+          grid-template-columns: 1fr;
+          margin-bottom: 24px;
+
+          li {
+            img {
+              width: 278px;
+            }
+          }
+        }
+
+        .row-two {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 20px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+
+    // .history-description .container .img-group {
+    //   flex-flow: row wrap;
+    // }
+
+    // .history-description .container .img-group img:nth-of-type(3) {
+    //   height: 80px;
+    // }
+
+
+    .history-description {
+      .container {
+        .img-group {
+          // display: grid;
+          grid-gap: 32px;
+          // grid-template-columns: repeat(auto-fill, 186px);
+          flex-flow: row wrap;
+
+          img {
+            +img {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .sop-subarashi {
+      .award {
+        .container {
+          ul {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+          }
+
+          .img {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            img {
+              width: 90%;
+              bottom: 0;
+
+              +img {
+                margin: 0;
+                width: 70%;
+              }
+            }
+          }
+        }
+      }
+
+      &.utsukushhii {
+        .award {
+          .row-two {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+
+      &.sensei-suru {
+        .product {
+          img {
+            height: 260px;
+          }
+        }
+
+        .row-one {
+          li {
+            img {
+              width: 100%;
+            }
+          }
+        }
+
+        .row-two {
+          li {
+            width: 50%;
+          }
+        }
+
+        .award {
+          .img {
+            img {
+              margin: 0;
+              width: 50%;
+
+              +img {
+                margin: 0;
+                width: 100%;
+              }
+            }
+          }
+
+          .row-one {
+            li {
+              img {
+                width: 100%;
+              }
+            }
+          }
+
+
+          .row-two {
+            gap: 24px;
+
+            li {
+              width: auto;
+
+              +li {
+                margin: 0;
+              }
+            }
+
+          }
+
+          .row-three {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 575.98px) {}
+}
