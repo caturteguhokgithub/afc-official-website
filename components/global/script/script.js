@@ -11,7 +11,7 @@ document.writeln(
     '<script src="assets/js/main.js"></script>' +
     '<script type="text/javascript" src="assets/library/slick/slick.js"></script>' +
     // Multilang
-    '<script src="assets/js/multilang/lang/id.js"></script>' +
+    '<script src="assets/js/multilang/lang/id.js?v=1.4"></script>' +
     '<script src="assets/js/multilang/lang/en.js?v=1.4"></script>' +
     '<script src="assets/js/multilang/translate.min.js"></script>' +
     '<script src="assets/js/multilang/docs.min.js"></script>'

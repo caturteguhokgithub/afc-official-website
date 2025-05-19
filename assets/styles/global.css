@@ -49,10 +49,14 @@ a:hover {
   text-transform: uppercase;
   transition: all 0.5s ease-in;
 }
-.menu > li a:hover {
+.menu > li a:hover,
+.privacy .menu-faq:hover,
+.privacy .menu-privacy:hover {
   color: #c71212;
 }
-.menu > li.active a {
+.menu > li.active a,
+.privacy .menu-faq.active,
+.privacy .menu-privacy.active {
   color: #c71212;
 }
 .menu > li + li {
@@ -411,7 +415,28 @@ a:hover {
 .container .change-language .translate.active img {
   filter: grayscale(0);
 }
+/* 
+.lang-image {
+  display: none;
+} */
+
 /* End Multilang */
+
+/* FAQ List */
+.page-faq .content-faq ol {
+  margin-left: -12px;
+}
+
+.page-faq .content-faq ul {
+  margin-left: 32px;
+  list-style: disc;
+}
+
+.page-faq .content-faq li {
+  padding-left: 8px;
+}
+
+/*  */
 
 @keyframes fadeInAnimation {
   0% {

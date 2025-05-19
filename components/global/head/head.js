@@ -10,5 +10,6 @@ document.writeln(
     '<link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@next/dist/aos.css" />' +
     '<link rel="stylesheet" type="text/css" href="assets/library/youtube_fast/youtube_fast.css" />' +
     '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />' +
+    '<link rel="stylesheet" href="assets/library/cssanim/cssanimation.min.css" />' +
     '<link rel="stylesheet" type="text/css" href="assets/styles/global.css" />'
 );

@@ -5,7 +5,7 @@ document.writeln(
     '<div class="container d-flex align-items-center">' +
     '<div class="row d-flex align-items-center justify-content-between">' +
     '<div class="col-3 logo">' +
-    '<a href="index.html"><img src="assets/images/afc-logo.png" /></a>' +
+    '<a href="index.html"><img src="assets/images/afc-logo.png" class="lang-image cssanimation fadeInLeft" data-lang="en" /><img src="assets/images/afc-logo.png" class="lang-image " data-lang="id" /></a>' +
     "</div>" +
     '<div class="col-9 d-flex justify-content-end">' +
     '<ul class="menu desktop-view">' +

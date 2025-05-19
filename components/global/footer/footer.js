@@ -35,7 +35,7 @@ document.writeln(
     new Date().getFullYear() +
     ' AFC Life Science. <span class="translate" data-translate="copyright.reserved"></span>.</p>' +
     '<p class="privacy">' +
-    '<a href=""><span class="translate" data-translate="menu.additional.help"></span></a>| <a href="https://afc-lifescience.com/faq/"><span class="translate" data-translate="menu.additional.faq"></span></a>| <a href="https://afc-lifescience.com/privacy-policy/"><span class="translate" data-translate="menu.additional.privacy"></span></a>' +
+    '<a href=""><span class="translate" data-translate="menu.additional.help"></span></a>| <a href="faq.html" class="menu-faq"><span class="translate" data-translate="menu.additional.faq"></span></a>| <a href="privacy.html" class="menu-privacy"><span class="translate" data-translate="menu.additional.privacy"></span></a>' +
     "</p>" +
     "</div>" +
     '<div class="col-md-6 afc-address desktop-view">' +

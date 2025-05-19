@@ -60,6 +60,10 @@ $(document).ready(function () {
       $("ul.menu li:nth-of-type(4)").addClass("active");
     } else if (/news.html/.test(loc)) {
       $("ul.menu > li:nth-of-type(5)").addClass("active");
+    } else if (/faq.html/.test(loc)) {
+      $(".privacy .menu-faq").addClass("active");
+    } else if (/privacy.html/.test(loc)) {
+      $(".privacy .menu-privacy").addClass("active");
     }
   });
 
