@@ -176,12 +176,27 @@ var lang_en = {
 
       utsukushhii: {
         desc: "UTSUKUSHHII is formulated with Salmon Milt DNA, derived from Oncorhynchus Keta Salmon from Hokkaido, and enhanced with eleven other active ingredients.",
+        gold: {
+          p1: "The Perfect Blend of Salmon DNA, Takara Kombu Fucoidan, and Triple Probiotics for Internal Protection",
+          p2: "UTSUKUSHHII GOLD contains a carefully selected triple probiotic blend",
+          p3: "Key ingredients include Salmon Milt DNA from Oncorhynchus keta sourced in Hokkaido, Japan, and Takara Kombu Fucoidan, a brown seaweed extract from Japan. The formula is enriched with 11 additional active compounds designed to help the body fight viruses, strengthen the immune system, and support recovery from viral infections or inflammation",
+        },
       },
 
       sensei: {
         p1: "Sensei Suru received the Grand Gold Quality Award from the prestigious Monde Selection International Awards.",
         p2: "It is the world’s first regenerating serum featuring Nano-Peptide technology, an innovation by Japan’s leading pharmaceutical company, AFC-HD AMS Lifescience. Combining two extraordinarily active ingredients, Salmon Ovary Peptide (Marine Placenta) and Salmon DNA, Sensei Suru offers extensive benefits for both skin health and beauty.",
         p3: "Moreover, Sensei Suru contains various powerful active ingredients, one of which was recognized with a Nobel Prize in 1986.",
+      },
+
+      hikari: {
+        p1: "Eyes and Brain Support",
+        p2: "Indonesia’s First Vegan-Based Nutritional Supplement for Eye and Brain Health",
+        p3: "HIKARI is formulated to help maintain eye and brain health, supporting focus and memory. It is safe for all ages, especially children and the elderly, and contains high-quality organic nutrients.",
+
+        ingredient: "Main active ingredients",
+        support: "Also supported by",
+        more: "Other active ingredients",
       },
     },
     // PRIVACY

@@ -11,7 +11,7 @@ document.writeln(
     '<li><a href="https://afc-lifescience.com/news.html"><span class="translate" data-translate="menu.header.news"></span></a></li>' +
     '<li><a href="https://www.afclogin.com/"><span class="translate" data-translate="menu.header.login"></span></a></li>' +
     "</ul>" +
-    '<div class="col-md-6 afc-address mobile-view mt-3">' +
+    '<div class="col-md-6 afc-address mobile-view mt-3 pl-0">' +
     "<h4>AFC LIFE SCIENCE</h4>" +
     "<p>St. Moritz - Lippo Puri Tower 19th Floor<br /> Jl. Puri Indah Raya Boulevard<br />Kembangan, Jakarta Barat 11610</p>" +
     '<ul class="phone">' +

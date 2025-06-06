@@ -246,3 +246,24 @@ if (targetElement.length) {
 } else {
   console.warn("Element not found for hash:", window.location.hash);
 }
+
+// Scroll to bottom box shadow
+// $(window).scroll(function () {
+//   var scrollTop = $(this).scrollTop();
+//   var windowHeight = $(this).height();
+//   var documentHeight = $(document).height();
+
+//   if (scrollTop + windowHeight >= documentHeight - 200) {
+//     $(".header").addClass("scrolled-to-bottom");
+//   } else {
+//     $(".header").removeClass("scrolled-to-bottom");
+//   }
+// });
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 50) {
+    $(".header").addClass("scrolled");
+  } else {
+    $(".header").removeClass("scrolled");
+  }
+});

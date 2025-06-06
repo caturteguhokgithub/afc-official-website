@@ -179,12 +179,27 @@ var lang_id = {
 
       utsukushhii: {
         desc: "UTSUKUSHHII adalah produk yang memiliki bahan utama dari Salmon Milt DNA dari ikan Oncorhyntus Keta Salmon dari Hokkaido, dan dilengkapi dengan 11 bahan aktif lainnya.",
+        gold: {
+          p1: "Perpaduan DNA Salmon, Takara Kombu Fucoidan, dan Triple Probiotic untuk Perlindungan dari Dalam",
+          p2: "UTSUKUSHHII GOLD adalah produk dengan kandungan triple probiotic pilihan",
+          p3: "Mengandung bahan utama Salmon Milt DNA dari ikan Oncorhynchus keta asal Hokkaido dan Takara Kombu Fucoidan, gagang coklat asal Jepang, UTSUKUSHHII GOLD juga dilengkapi 11 bahan aktif lainnya yang dirancang untuk membantu tubuh melawan virus, memperkuat daya tahan tubuh, serta mendukung pemulihan dari gangguan akibat infeksi virus atau peradangan dalam tubuh",
+        },
       },
 
       sensei: {
         p1: "Sensei Suru dianugerahkan Grand Gold Quality Award dari International Award Monde Selection.",
         p2: "Regenerating Serum dengan Nano-Peptide pertama di dunia. Hasil inovasi dari perusahaan farmasi Jepang, AFC- HD AMS Lifescience. Menggabungkan dua bahan aktif yang luar biasa, Salmon Ovary Peptide (Marine Placenta) dan Salmon DNA, Sensei Suru memiliki banyak manfaat positif bagi kesehatan dan kecantikan kulit anda.",
         p3: "Selain itu Sensei Suru juga memiliki berbagai macam kandungan bahan aktif yang salah satu diantaranya memenangkan nobel awards pada tahun 1986.",
+      },
+
+      hikari: {
+        p1: "Eyes and Brain Support",
+        p2: "Nutrisi berbahan vegan pertama di Indonesia untuk mata dan otak",
+        p3: "HIKARI diformulasikan khusus untuk membantu menjaga kesehatan mata dan otak, serta mendukung fungsi fokus dan daya ingat. Aman dikonsumsi segala usia, terutama anak-anak dan lansia, dengan nutrisi organik yang berkualitas.",
+
+        ingredient: "Bahan aktif utama",
+        support: "Didukung juga oleh kandungan lainnya seperti",
+        more: "Beberapa bahan aktif lainnya",
       },
     },
     // PRIVACY

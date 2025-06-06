@@ -57,9 +57,9 @@
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center center;
-     object-position: center center;
+  object-position: center center;
   opacity: 1;
 }
 .page-product .sop-subarashi .product {
@@ -189,6 +189,46 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+.page-product .hikari .circle-ingre,
+.page-product .utsukushhii .circle-ingre {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.page-product .hikari .circle-ingre img,
+.page-product .utsukushhii .circle-ingre img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page-product .hikari .circle-ingre + p,
+.page-product .utsukushhii .circle-ingre + p {
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+.page-product .sop-subarashi.sensei-suru.hikari ul.row-ingre-one,
+.page-product .sop-subarashi.sensei-suru.hikari ul.row-ingre-two,
+.page-product .sop-subarashi.utsukushhii ul.row-ingre-one {
+  margin: 0 auto;
+  margin-top: 2em;
+  display: flex;
+  max-width: 700px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5em;
+}
+.page-product .sop-subarashi.utsukushhii ul.row-ingre-one {
+  max-width: 792px;
+}
+.page-product .sop-subarashi.utsukushhii ul.row-ingre-one li {
+  min-width: 237px;
+}
+.page-product .sop-subarashi.sensei-suru.hikari .product img,
+.page-product .sop-subarashi.utsukushhii .product img {
+  height: 280px;
+}
 @media (max-width: 767.98px) {
   .page-product .history-description .container .img-group {
     grid-gap: 32px;
@@ -249,4 +289,4 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
-}/*# sourceMappingURL=product.css.map */
+} /*# sourceMappingURL=product.css.map */
